@@ -1,0 +1,10 @@
+package inheritance;
+
+public interface Transport {
+	public static final String fromStation="Vijayawada";
+	public static final String toStation="Benglore";
+	public abstract void start();
+	public void stop();
+	
+
+}
